@@ -1,0 +1,30 @@
+{
+  "name": "salesforcetraining",
+  "version": "1.0.0",
+  "description": "Salesforce E2E Testing with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed --project=chromium",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "salesforce",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "jsforce": "^2.0.0-beta.29"
+  }
+}
